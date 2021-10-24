@@ -28,6 +28,15 @@ export class Vector {
   public set Angle(value: number) {
 
   }
+  public set X(dim: number) {
+    this.dimensions[0] = dim;
+  }
+  public set Y(dim: number) {
+    this.dimensions[1] = dim;
+  }
+  public set Z(dim: number) {
+    this.dimensions[2] = dim;
+  }
 
   // methods
   normalize() {
