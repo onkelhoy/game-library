@@ -1,0 +1,27 @@
+{
+  "name": "game-library",
+  "version": "1.0.0",
+  "description": "a simple library for game logic",
+  "main": "source/index.ts",
+  "scripts": {
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onkelhoy/game-library.git"
+  },
+  "keywords": [
+    "typescript",
+    "game",
+    "library"
+  ],
+  "author": "Henry Pap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onkelhoy/game-library/issues"
+  },
+  "homepage": "https://github.com/onkelhoy/game-library#readme",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
